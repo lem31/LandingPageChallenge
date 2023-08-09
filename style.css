@@ -1,0 +1,623 @@
+/*Grid Styling*/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+
+}
+
+img {
+  display: grid;
+}
+
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  background-image: url(file:///Users/leannedollimore/Web%20Projects/Challenge%202/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+  background-size: 1440px;
+  height: 720px;
+  width: 1440px;
+
+}
+
+.two {
+  grid-column: 1/2;
+  grid-row: 2;
+  height: 720px;
+  width: 1440px;
+  display: flex;
+}
+
+.three {
+  grid-column: 1/2;
+  grid-row: 3;
+  height: 720px;
+  width: 1440px;
+  display: flex;
+}
+
+.four {
+  grid-column: 1/2;
+  grid-row: 4;
+  display: flex;
+  width: 720px;
+  height: 720px;
+  float: left;
+  position: relative;
+
+}
+
+.Four-part2 {
+  display: flex;
+  width: 720px;
+  height: 720px;
+  float: left;
+  position: relative;
+}
+
+
+
+.five {
+  grid-column: 1/2;
+  grid-row: 5;
+  height: 720px;
+  width: 1440px;
+  display: flex;
+}
+
+.six {
+  grid-column: 1/2;
+  grid-row: 6;
+  width: 1440px;
+  display: grid;
+
+
+}
+
+.seven {
+  grid-column: 1/2;
+  grid-row: 7;
+  display: block;
+  width: 1440px;
+  height: 400px;
+  background-color: rgba(109, 207, 176, 0.86);
+  margin-top: -380px;
+}
+
+/*Grid Styling*/
+
+/*Navigation Bar*/
+
+.topnav {
+  float: right;
+  padding-right: 20px;
+  margin-top: -45px;
+}
+
+.active {
+  text-decoration: none;
+  font-family: "barlow", sans-serif;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.active:hover {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+}
+
+.services {
+  text-decoration: none;
+  font-family: "barlow", sans-serif;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.services:hover {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+}
+
+.projects {
+  text-decoration: none;
+  font-family: "barlow", sans-serif;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.projects:hover {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+}
+
+.contact {
+  text-decoration: none;
+  font-family: "barlow", sans-serif;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.contact:hover {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+}
+
+/*Navigation Bar*/
+
+/*Section 1 content*/
+
+.header_sunnyside {
+  color: white;
+  margin-left: 20px;
+  font-family: "barlow", sans-serif;
+}
+
+.Section1_mainheader {
+  color: white;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-weight: 400px;
+  font-size: 40px;
+  padding-top: 90px;
+}
+
+.arrow-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  width: 3%;
+}
+
+/*Section 1 content*/
+
+/*Section 2 content*/
+
+.section2-text {
+  width: 720px;
+  height: 720px;
+  display: flex;
+  float: left;
+  font-size: 20px;
+  padding-left: 20px;
+
+
+}
+
+.Section2_header {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 30px;
+  width: 720px;
+  display: grid;
+  float: left;
+  justify-content: center;
+  margin-left: -92px;
+  margin-top: 190px;
+}
+
+.Section2_content {
+  width: 720px;
+  display: grid;
+  float: left;
+  justify-content: center;
+  font-family: "barlow", sans-serif;
+  opacity: 0.6;
+  margin-left: -12px;
+}
+
+.egg-image {
+  width: 720px;
+  height: 720px;
+  margin-top: -5px;
+
+}
+
+
+.learnmore {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  padding-left: 165px;
+  padding-right: 7px;
+  display: grid;
+  float: left;
+  background-image: linear-gradient(120deg, #f7fd8f 50%, #f7fd8f 50%, #f7fd8f 50%);
+  background-repeat: no-repeat;
+  background-size: 45% 45%;
+  background-position: 101% 93%;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+/*Section 2 content*/
+
+
+/*Section 3 content*/
+
+.cup-image {
+  width: 720px;
+  height: 720px;
+  margin-top: -19px;
+}
+
+.section3-text {
+  width: 720px;
+  height: 720px;
+  display: grid;
+  justify-content: center;
+}
+
+.Section3_header {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 30px;
+  width: 720px;
+  display: grid;
+  float: right;
+  justify-content: center;
+  margin-top: 190px;
+  padding-right: 44px;
+}
+
+.Section3_content {
+  width: 720px;
+  display: grid;
+  float: right;
+  justify-content: center;
+  font-family: "barlow", sans-serif;
+  opacity: 0.6;
+}
+
+
+.learnmore2 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  padding-left: 214px;
+  padding-right: 7px;
+  display: grid;
+  float: center;
+  background-image: linear-gradient(120deg, #e77f80e4 50%, #e77f80e4 50%, #e77f80e4 50%);
+  background-repeat: no-repeat;
+  background-size: 17% 44%;
+  background-position: 32.5% 93%;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
+
+/*Section 3 content*/
+
+
+/*Section 4 content*/
+
+.Section4_header1 {
+  font-family: "Fraunces" serif;
+  font-size: 25px;
+  opacity: 0.6;
+  position: absolute;
+  left: 50px;
+  top: 400px;
+  text-align: center;
+  margin-left: 220px;
+}
+
+.Section4_content1 {
+  font-family: "Fraunces" serif;
+  opacity: 0.6;
+  position: absolute;
+  left: 200px;
+  top: 450px;
+  text-align: center;
+}
+
+.cherry-image {
+  width: 720px;
+  height: 720px;
+  margin-top: -29px;
+}
+
+.header2 {
+  font-family: "Fraunces" serif;
+  opacity: 0.6;
+  font-size: 25px;
+  position: absolute;
+  top: 400px;
+  text-align: center;
+  margin-left: 290px;
+
+}
+
+
+.content2 {
+  font-family: "Fraunces" serif;
+  opacity: 0.6;
+  position: absolute;
+  top: 450px;
+  margin-left: 210px;
+  text-align: center;
+}
+
+.orange-image {
+  width: 720px;
+  height: 720px;
+  margin-top: -29px;
+}
+
+/*Section 4 content*/
+
+/*Section 5 content*/
+
+.main-header {
+  width: 1440px;
+
+}
+
+.Testimonials-header {
+  font-family: "Fraunces" serif;
+  opacity: 0.3;
+  display: block;
+  margin: 0 auto;
+  margin-right: -580px;
+  margin-left: 580px;
+  margin-top: 100px;
+
+}
+
+.Emily-testimonial {
+  margin-top: 250px;
+  width: 480px;
+  text-align: center;
+
+}
+
+.Emily-photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-left: -400px;
+
+}
+
+.Emily-test {
+  width: 280px;
+  height: 230px;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: -470px;
+  opacity: 0.7;
+}
+
+.Emily-pos {
+  margin-top: -110px;
+  margin-left: -940px;
+}
+
+.Name-Emily {
+  font-family: "Barlow" sans-serif;
+  font-weight: bolder;
+}
+
+.Job-Emily {
+  opacity: 0.4;
+  font-size: 12px;
+}
+
+
+.Thomas-testimonial {
+  margin-top: 250px;
+  width: 480px;
+  text-align: center;
+
+
+}
+
+.Thomas-photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-left: -280px;
+}
+
+.Thomas-test {
+  width: 280px;
+  height: 230px;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: -350px;
+  opacity: 0.7;
+}
+
+.Thomas-pos {
+  margin-top: -110px;
+  margin-left: -680px;
+}
+
+.Name-Thomas {
+  font-family: "Barlow" sans-serif;
+  font-weight: bolder;
+}
+
+.Job-Thomas {
+  opacity: 0.4;
+  font-size: 12px;
+}
+
+.Jennie-testimonial {
+  margin-top: 250px;
+  width: 480px;
+  text-align: center;
+
+}
+
+
+.Jennie-photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-left: -160px;
+
+}
+
+.Jennie-test {
+  width: 300px;
+  height: 230px;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: -240px;
+  opacity: 0.7;
+}
+
+.Jennie-pos {
+  margin-top: -110px;
+  margin-left: -430px;
+}
+
+.Name-Jennie {
+  font-family: "Barlow" sans-serif;
+  font-weight: bolder;
+}
+
+.Job-Jennie {
+  opacity: 0.4;
+  font-size: 12px;
+}
+
+/*Section 5 content*/
+
+/*Section 6 content*/
+
+.row-of-images {
+  display: flex;
+  width: 1440px;
+  height: 720px;
+}
+
+.Milk-bottles {
+  width: 360px;
+  height: 400px;
+}
+
+.Orange-img {
+  width: 360px;
+  height: 400px;
+}
+
+.Icecream-cone {
+  width: 360px;
+  height: 400px;
+}
+
+.Sugar-cubes {
+  width: 360px;
+  height: 400px;
+}
+
+/*Section 6 content*/
+
+/*Section 7 content*/
+
+.Sunnyside-header {
+  font-family: Arial, sans-serif;
+  font-weight: bolder, 900;
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  color: rgb(60, 126, 116)
+}
+
+.navbar {
+  display: block;
+  margin-top: 100px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.About {
+  text-decoration: none;
+  color: rgb(60, 126, 116);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Services2 {
+  text-decoration: none;
+  color: rgb(60, 126, 116);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Projects2 {
+  text-decoration: none;
+  color: rgb(60, 126, 116);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Icons {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 650px;
+}
+
+/*Section 7 content*/
+
+
+/* Media Queries - to make page responsive */
+
+@media only screen and (max-width:375px) {
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+
+
+  .one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-image: url(file:///Users/leannedollimore/Web%20Projects/Challenge%202/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+    background-size: 250px;
+    height: 350px;
+    width: 250px;
+
+  }
+
+
+
+}
